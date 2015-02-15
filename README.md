@@ -4,6 +4,7 @@ All My Sublime Customizations
 ### Installed Packages
 1. [SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 2. [Auto Semi-colon](https://github.com/vivait/SublimeAutoSemiColon)
+3. [Emmet](https://github.com/sergeche/emmet-sublime)
 
 ### Vintage Tweaks
 1. Mac OS Vintage [key repeat](https://gist.github.com/kconragan/2510186) tweak - 
