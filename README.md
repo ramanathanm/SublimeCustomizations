@@ -13,5 +13,7 @@ All My Sublime Customizations
   2. edit Default.sublime-commands, add the below lines (use commas as appropriate)
   ```javascript
   { "caption": ":q Close", "command": "close" },
+  { "caption": ":xa Close All", "command": "close_all" },
   { "caption": "File : Close", "command": "close" },
+  { "caption": "File : Close All", "command": "close_all" },
 
