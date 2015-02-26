@@ -16,8 +16,10 @@ All My Sublime Customizations
   { "caption": ":xa Close All", "command": "close_all" },
   { "caption": "File : Close", "command": "close" },
   { "caption": "File : Close All", "command": "close_all" },
+  ```javascript
 
 ### My Sublime Config
+
 ```javascript
 {
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
@@ -55,4 +57,4 @@ All My Sublime Customizations
 	"fade_fold_buttons": false,
 	"bold_folder_labels": true
 }
-
+```javascript
