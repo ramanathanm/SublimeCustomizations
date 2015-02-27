@@ -16,45 +16,54 @@ All My Sublime Customizations
   { "caption": ":xa Close All", "command": "close_all" },
   { "caption": "File : Close", "command": "close" },
   { "caption": "File : Close All", "command": "close_all" },
-  ```javascript
-
+  
 ### My Sublime Config
 
 ```javascript
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"tab_size": 2,
-	"hot_exit": true,
-	"file_exclude_patterns":
-	[
-		".gitkeep",
-		".gitignore",
-		".bowerrc",
-		".ember-cli",
-		".jshintrc",
-		".editorconfig",
-		".travis.yml"
-	],
-	"folder_exclude_patterns":
-	[
-		".svn",
-		".git",
-		".hg",
-		"CVS",
-		"tmp",
-		"node_modules",
-		"bower_components",
-		"dist"
-	],
-	"font_size": 13,
-	"ignored_packages":
-	[
-	],
-	"theme": "Soda Light.sublime-theme",
-	"vintage_start_in_command_mode": true,
-	"caret_style": "phase",
-	"highlight_line": true,
-	"fade_fold_buttons": false,
-	"bold_folder_labels": true
+  "font_face": "Inconsolata",
+  "font_size": 12,
+  "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+  "color_scheme": "Packages/Tomorrow-Night.tmTheme",
+  "tab_size": 2,
+  "hot_exit": true,
+  "file_exclude_patterns":
+  [
+    ".gitkeep",
+    ".gitignore",
+    ".bowerrc",
+    ".ember-cli",
+    ".jshintrc",
+    ".editorconfig",
+    ".travis.yml"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    "tmp",
+    "node_modules",
+    "bower_components",
+    "dist"
+  ],
+  "font_size": 13,
+  "ignored_packages":
+  [
+  ],
+  "rulers":
+   [
+      "horizontal"
+   ],
+  "theme": "Soda Light.sublime-theme",
+  "vintage_start_in_command_mode": true,
+  "caret_style": "phase",
+  "highlight_line": true,
+  "fade_fold_buttons": false,
+  "bold_folder_labels": true,
+  "vintage_ctrl_keys": true,
+  "vintage_start_in_command_mode": true,
+  "find_selected_text": true,
+  "highlight_modified_tabs": true
 }
-```javascript
