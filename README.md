@@ -17,6 +17,23 @@ All My Sublime Customizations
   { "caption": "File : Close", "command": "close" },
   { "caption": "File : Close All", "command": "close_all" },
   ```
+
+3. Escape key to close "Autocomplete" menu & entre directly in to "Normal/Escape mode" - [Reference](https://github.com/tonymagro/VintageEscape), Add the following lines to Default key bindings:
+  ```javascript
+  [
+  	{ "keys": ["escape"], "command": "exit_auto_complete_and_insert_mode", "context":
+  		[
+  			{ "key": "auto_complete_visible", "operator": "equal", "operand": true }
+  		]
+  	},
+  
+  	{ "keys": ["ctrl+["], "command": "exit_auto_complete_and_insert_mode", "context":
+  		[
+  			{ "key": "auto_complete_visible", "operator": "equal", "operand": true }
+  		]
+  	}
+  ]
+```
   
 ### My Sublime Config
 
