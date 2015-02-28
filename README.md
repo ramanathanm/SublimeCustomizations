@@ -16,7 +16,7 @@ All My Sublime Customizations
   { "caption": ":xa Close All", "command": "close_all" },
   { "caption": "File : Close", "command": "close" },
   { "caption": "File : Close All", "command": "close_all" },
-  ```javascript
+  ```
   
 ### My Sublime Config
 
@@ -68,4 +68,4 @@ All My Sublime Customizations
   "find_selected_text": true,
   "highlight_modified_tabs": true
 }
-```javascript
+```
